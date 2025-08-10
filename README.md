@@ -1,6 +1,6 @@
-# Kita
+# Website
 
-Website for Calibur Pixel powered by Nuxt 3 and Vuetify.
+Website for Arcomua Team powered by Nuxt 3 and Vuetify.
 
 ## Setup
 

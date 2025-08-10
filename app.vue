@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
-  titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - Calibur Pixel` : 'Calibur Pixel'
+  titleTemplate: (titleChunk: any) => {
+    return titleChunk ? `${titleChunk} - Arcomua Team` : 'Arcomua Team'
   },
   meta: [
     { name: "referrer", content: "no-referrer" }

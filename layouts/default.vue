@@ -8,30 +8,28 @@ const drawer = ref();
       <VAppBarNavIcon @click.stop="drawer = !drawer"></VAppBarNavIcon>
     </template>
     <VAppBarTitle>
-      <NuxtImg preload :width="125" src="fontlogo-white.webp"></NuxtImg>
+       <NuxtImg preload :width="125" src="fontlogo-white.png"></NuxtImg>
     </VAppBarTitle>
   </VAppBar>
 
   <VNavigationDrawer v-model="drawer">
     <VList>
       <VListItem prepend-icon="mdi-home" title="首页" to="/" color="primary"></VListItem>
-      <VListItem prepend-icon="mdi-palette" title="颜色" to="color" color="primary"></VListItem>
+      <!-- <VListItem prepend-icon="mdi-palette" title="颜色" to="color" color="primary"></VListItem> -->
       <!-- <VListItem prepend-icon="mdi-hand-coin" title="捐赠" to="donation" color="primary"></VListItem> -->
     </VList>
     <VDivider />
     <VList>
-      <VListSubheader>论坛</VListSubheader>
-      <VListItem prepend-icon="mdi-forum" title="论坛" href="https://bbs.aira.cafe/t/calibur-pixel"></VListItem>
-      <VListItem prepend-icon="mdi-format-list-numbered" title="管理条例" href="https://bbs.aira.cafe/d/57"></VListItem>
-      <VListItem prepend-icon="mdi-directions" title="游玩指南" href="https://bbs.aira.cafe/d/65"></VListItem>
+      <VListSubheader>整合包</VListSubheader>
+      <VListItem prepend-icon="mdi-puzzle" title="Cloth" to="packCloth" color="primary"></VListItem>
+      <VListItem prepend-icon="mdi-anvil" title="Anvil" to="packAnvil" color="primary"></VListItem>
+      <VListItem prepend-icon="mdi-lightning-bolt" title="Lite" to="packLite" color="primary"></VListItem>
     </VList>
     <VDivider />
     <VList>
-      <VListSubheader>封禁</VListSubheader>
-      <VListItem prepend-icon="mdi-cancel" title="旧版封禁列表"
-        href="https://docs.qq.com/sheet/Bnr7N31xwOuZ38eCPg4WQ6DQ4cqzJz0AIrMh0BAjcE02IR2M2Z9BHe4A5kfk2KKqCR3cydNd1?c=B29A0F0">
-      </VListItem>
-      <VListItem prepend-icon="mdi-gavel" title="Anubis联合封禁" href="https://ban.qwq.team/"></VListItem>
+      <VListSubheader>帮助</VListSubheader>
+      <VListItem prepend-icon="mdi-file-document" title="帮助中心" href="https://support.arcomua.com/"></VListItem>
+      <VListItem prepend-icon="mdi-router-network" title="服务状态" href="https://status.arcomua.com/status/arcomua"></VListItem>
     </VList>
   </VNavigationDrawer>
 

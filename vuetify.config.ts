@@ -6,15 +6,15 @@ export default defineVuetifyConfiguration({
       themes: {
         light: {
           colors: {
-            primary: '#F06E8E',
-            secondary: '#F06E8E',
+            primary: '#6495ED',
+            secondary: '#6495ED',
           },
         },
         dark: {
           dark: true,
           colors: {
-            primary: '#F06E8E',
-            secondary: '#F06E8E',
+            primary: '#6495ED',
+            secondary: '#6495ED',
           },
         },
       },

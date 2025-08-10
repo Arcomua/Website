@@ -1,26 +1,24 @@
 <template>
-  <VFooter color="primary" id="white-pantyhose-footer">
+  <VFooter color="primary" id="ordinary-footer">
     <div class="left">
-      <NuxtImg :width="125" src="fontlogo-white.webp"></NuxtImg>
-      <p class="year">© 2018 - {{ new Date().getFullYear() }}</p>
+      <NuxtImg :width="125" src="fontlogo-white.png"></NuxtImg>
+      <p class="year">CC-BY-NC-SA-4.0 2020 - {{ new Date().getFullYear() }}</p>
       <div class="links">
-        <VBtn variant="plain" size="small" target="_blank" href="https://github.com/Calibur-Pixel/">我们的开源项目</VBtn>
-        <VBtn variant="plain" size="small" target="_blank" href="https://play.mcmod.cn/sv20182489.html">MCMOD宣传贴</VBtn>
+        <VBtn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua/">Github</VBtn>
+        <VBtn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua/Website">Source</VBtn>
       </div>
     </div>
     <div class="right">
       <h3>友情链接</h3>
       <div class="links">
-        <VBtn variant="plain" size="small" target="_blank" href="https://heryin.net/">和瑛</VBtn>
-        <VBtn variant="plain" size="small" target="_blank" href="https://mc.artform.cn/">艺式</VBtn>
-        <VBtn variant="plain" size="small" target="_blank" href="https://www.yingluo.world/">璎珞</VBtn>
+        <VBtn variant="plain" size="small" target="_blank" href="https://mc.calibur.tv/">Calibur Pixel</VBtn>
       </div>
     </div>
   </VFooter>
 </template>
 
 <style scoped lang="scss">
-#white-pantyhose-footer {
+#ordinary-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
