@@ -32,9 +32,14 @@ useHead({
         <VDivider></VDivider>
         <div>
           <h2 class="text-primary float-in-right">下载链接</h2>
-          <div class="float-in-left">
-            <!-- <h3 class="mt-8 mb-2">推荐下载</h3> -->
-            <VBtn color="green-lighten-1" hover href="https://modrinth.com/modpack/arcomua-lite">Modrinth</VBtn>
+          <div class="float-in-left d-flex">
+            <VBtn 
+              color="green-lighten-1" 
+              hover 
+              href="https://modrinth.com/modpack/arcomua-lite"
+              class="mr-3">
+            Modrinth
+            </VBtn>
           </div>
         </div>
       </div>

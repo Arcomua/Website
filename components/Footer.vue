@@ -1,7 +1,7 @@
 <template>
   <VFooter color="primary" id="ordinary-footer">
     <div class="left">
-      <NuxtImg :width="125" src="fontlogo-white.png"></NuxtImg>
+      <NuxtImg :width="165" src="fontlogo-white.png"></NuxtImg>
       <p class="year">CC-BY-NC-SA-4.0 2020 - {{ new Date().getFullYear() }}</p>
       <div class="links">
         <VBtn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua/">Github</VBtn>

@@ -8,15 +8,13 @@ const drawer = ref();
       <VAppBarNavIcon @click.stop="drawer = !drawer"></VAppBarNavIcon>
     </template>
     <VAppBarTitle>
-       <NuxtImg preload :width="125" src="fontlogo-white.png"></NuxtImg>
+       <NuxtImg preload :width="165" src="fontlogo-white.png"></NuxtImg>
     </VAppBarTitle>
   </VAppBar>
 
   <VNavigationDrawer v-model="drawer">
     <VList>
       <VListItem prepend-icon="mdi-home" title="首页" to="/" color="primary"></VListItem>
-      <!-- <VListItem prepend-icon="mdi-palette" title="颜色" to="color" color="primary"></VListItem> -->
-      <!-- <VListItem prepend-icon="mdi-hand-coin" title="捐赠" to="donation" color="primary"></VListItem> -->
     </VList>
     <VDivider />
     <VList>
