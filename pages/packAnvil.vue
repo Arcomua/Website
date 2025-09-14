@@ -28,10 +28,10 @@ useHead({
           <h2 class="text-primary mt-8 float-in-right">内容概览</h2>
           <p class="subheading my-4 float-in-left">包含多项性能优化、错误修复；对部分游戏界面进行了美化；内置多种生电相关工具。</p>
         </div>
-        <VDivider></VDivider>
+        <VDivider class="my-6"></VDivider>
         <div>
           <h2 class="text-primary float-in-right">下载链接</h2>
-          <div class="float-in-left d-flex">
+          <div class="my-4 float-in-left d-flex">
             <VBtn 
               color="green-lighten-1" 
               hover 
